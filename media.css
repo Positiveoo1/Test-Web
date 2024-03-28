@@ -1,0 +1,77 @@
+@media (max-width: 480px) {
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .fa-bars {
+    display: block;
+    color: #000;
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    transition: 0.5s all ease-in-out;
+    z-index: 999;
+    opacity: 1;
+  }
+  .fa-bars:hover {
+    color: orange;
+  }
+
+  .module {
+    width: 300px;
+    height: 100vh;
+    background-color: #ffff;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    left: -300px;
+    transition: left 0.3s ease;
+  }
+
+  .active {
+    left: 0px;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    z-index: 9999;
+  }
+  .conts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .itemsNav a,
+  span {
+    color: #000;
+  }
+
+  .itemsNav {
+    margin-top: 60px;
+  }
+  .itemsNav i {
+    color: #000;
+  }
+  .logo {
+    color: #000;
+    margin-left: 200px;
+  }
+
+  .containerF {
+    width: 90%;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .name,
+  .consult > h1 {
+    font-size: 40px;
+  }
+  .internet {
+    width: 100%;
+    font-size: 15px;
+  }
+}
